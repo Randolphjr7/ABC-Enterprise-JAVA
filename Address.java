@@ -42,6 +42,11 @@ public class Address {
         return fullAddresss = getStreet()+ " " + getCity() + ", " + getState();
     }
     
+    public String getAddress() {
+        String addy;
+        return addy = getStreet() + ", " + getState();
+    }
+    
     public void changeStreet(String newStreet) {
         this.street = newStreet;
     }

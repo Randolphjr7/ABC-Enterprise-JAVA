@@ -26,7 +26,7 @@ public class Manufacturer {
     }
     
     public String getAddress() {
-        String companyAddress = address.getFullAddress();
+        String companyAddress = address.getAddress();
         return companyAddress;
     }
 }
