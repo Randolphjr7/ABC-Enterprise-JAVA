@@ -51,4 +51,14 @@ public class Product {
     public void changeQuantity(int newQuantity) {
         quantity = newQuantity;
     }
+    
+    public void makeSale(int orderQuantity) {
+        quantity -= orderQuantity;
+    }
+    
+    public void placeOrder(int orderQuantity) {
+        quantity += orderQuantity;
+    }
+    
+    
 }
